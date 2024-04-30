@@ -1,0 +1,82 @@
+.pending_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #1e90ff;
+}
+.active_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #32cd32;
+}
+
+.cancelled_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #f4a460;
+}
+.delivered_style {
+  border-radius: 10px;
+  border-bottom: 5px solid #008080;
+}
+.desc {
+  font-size: 16px;
+  font-weight: 700;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: #6e8f3a !important;
+  color: #fff;
+  font-size: 1em;
+}
+.cards {
+  width: 100%;
+  padding: 35px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.cards .dashboard-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cards .dashboard-card:hover .icon-box i,
+.cards .dashboard-card:hover .number,
+.cards .dashboard-card:hover .card-name {
+  color: #fff;
+}
+
+.cards .dashboard-card:hover {
+  background-color: #3c763b;
+  color: #fff;
+}
+
+.number {
+  font-size: 35px;
+  font-weight: 500;
+  color: #3c763b;
+}
+
+.card-name {
+  color: #888;
+  font-weight: 600;
+}
+
+.icon-box i {
+  font-size: 45px;
+  color: #3c763b;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  padding: 20px;
+  padding-top: 0;
+}

@@ -1,0 +1,11 @@
+.ant-menu-light .ant-menu-item-selected {
+  background-color: #fff !important;
+  color: #3c763b !important;
+}
+.ant-menu-light
+  .ant-menu-item:not(.ant-menu-item-selected):not(
+    .ant-menu-submenu-selected
+  ):hover {
+  background-color: #fff;
+  color: #3c763b !important;
+}

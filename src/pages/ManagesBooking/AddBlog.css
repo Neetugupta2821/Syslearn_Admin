@@ -1,0 +1,163 @@
+/* .userFormBorder {
+  border: 3px solid green;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #fff;
+}
+
+.table-bg {
+  background-color: #fff;
+}
+
+.table-bg tr th {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.select-checkbox-style {
+  margin-top: 12px;
+}
+
+.add-btn-style {
+  color: #ffffff;
+  border: 2px solid #188dc7;
+  padding: 2px 10px;
+  font-size: 13px;
+  background: #188dc7;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.add-item-style {
+  border: 2px solid #188dc7;
+  background-color: #fff;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.submit-btn-style {
+  color: #ffffff;
+  border: 2px solid #188dc7;
+  padding: 5px 25px;
+  font-size: 15px;
+  background: #188dc7;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.table-bg tr .th-style {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px;
+  color: black;
+}
+
+.Add-request-bg {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #fff;
+}
+
+.divider-style {
+  background-color: #c4c4c4;
+  height: 5px;
+}
+
+.add-icon-style {
+  font-size: 20px !important;
+}
+
+.add-request-style {
+  font-size: 30px;
+  font-weight: 700;
+}
+.row-style {
+  display: flex;
+}
+.col-style-50 {
+  width: 50%;
+} */
+.header-div {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  background-color: #fff;
+  height: 70px;
+  margin: 25px;
+  padding: 10px;
+}
+span {
+  margin-left: 10px;
+}
+span .fas {
+  color: #299b63;
+}
+.form-div {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+}
+.row-style {
+  display: flex;
+  margin: 20px;
+  background-color: #fff;
+}
+.text-style {
+  width: 35%;
+}
+.col-style1 {
+  width: 50%;
+  margin-right: 30px;
+}
+.col-style2 {
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.col-style1-p-m {
+  width: 50%;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.col-style2-p-m {
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.submit-btn-style {
+  color: #ffffff;
+  border: 2px solid #299b63;
+  padding: 5px 25px;
+  font-size: 15px;
+  background: #299b63;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.image-width {
+  width: 75px;
+}
+.image-width img {
+  width: 250px;
+}
+.image-div {
+  width: 75%;
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+.btn {
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #ffffff;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
